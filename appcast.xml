@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Nametag</title>
+        <item>
+            <title>0.2.0</title>
+            <pubDate>Tue, 20 Oct 2026 15:03:02 -0300</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## What's new
+
+- **Name it your way.** The tag on a row opens an editor: pick the name and,
+  for a service with several ports, which port it points at.
+- **Cookies that work at `*.localhost`.** An app that sets cookies for
+  `Domain=localhost` (or its production domain) breaks sign-in at
+  `billing.localhost`. Nametag now fixes them on the way through and tells
+  you which setting to change in the app.
+- **Proxy settings.** Turn the proxy off, or choose the ports it uses when
+  80 or 443 is taken, from the gear menu.
+- **Updates.** Check for Updates… in the gear menu. This is the first
+  version that can update itself.
+- A proper app icon.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/nametag-updates/releases/download/v0.2.0/Nametag-0.2.0.zip" length="13757074" type="application/octet-stream" sparkle:edSignature="Rb+U+9sdz4I402e8SB/OLEXbyFZSze0I9dNW8X2Ra1f4Ss32JqziI+ezX1146haLN3YvxNGtoss9UxkaX28bDg=="/>
+        </item>
+    </channel>
+</rss>
