@@ -3,6 +3,39 @@
     <channel>
         <title>Nametag</title>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Wed, 21 Oct 2026 14:00:41 -0300</pubDate>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## What's new
+
+- **Share through Cloudflare, on your own domain.** Pick Cloudflare in
+  Settings › Sharing, sign in once, and type a domain of yours that's on
+  Cloudflare: billing.localhost is shared at billing.yourdomain.com, the
+  same address every time, with no warning page for visitors. ngrok works
+  as before. Cloudflare's free plan isn't for serving video or mostly
+  large files.
+- **A redesigned menu.** Names come first. Click a row to open it; copy,
+  share and details appear when you point at it. Each server's details,
+  renaming and sharing are on a page of their own instead of popovers.
+- **Find and move with the keyboard.** Type to filter by name, port,
+  process or image. ↑↓ choose a row, Return opens it, → or ⌘Return shows
+  its details, ⌘C copies its address, ⌘S shares it, Esc clears the
+  filter.
+- **A Settings window** (⌘,) for the proxy, HTTPS, sharing, notifications
+  and your license. It shows whether the proxy got ports 80 and 443, and
+  offers to try again when it didn't.
+- **Apps' and macOS's listeners** are folded into one Other Listeners
+  group at the bottom, out of the way.
+- **Setting up HTTPS** is offered once, from the menu, until you do it or
+  dismiss it.
+
+Sharing is part of a license, and of the 14-day trial.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/nametag-updates/releases/download/v0.5.0/Nametag-0.5.0.zip" length="14496282" type="application/octet-stream" sparkle:edSignature="WeLlOMjharo8XmFjuWdCOpk9tl9zymdo77uUTdt2iPbQZUFFw/5Po4Q+TCAxztx0t/izaDmUrM8AqvuOdW0aCg=="/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Wed, 21 Oct 2026 09:43:09 -0300</pubDate>
             <sparkle:version>46</sparkle:version>
@@ -47,28 +80,6 @@ Sharing is part of a license, and of the 14-day trial.
   which cookies a browser refuses and which setting to change in the app.
 ]]></description>
             <enclosure url="https://github.com/gocodedotca/nametag-updates/releases/download/v0.3.0/Nametag-0.3.0.zip" length="13943494" type="application/octet-stream" sparkle:edSignature="RzRZeQ+w1TlKmB639R29gF7Ji3sD+aWx2IzsHHUA+tbJDeJdc4SiJdy3LF0ScR9NO97zRtTSxZx2u0hyRezHAw=="/>
-        </item>
-        <item>
-            <title>0.2.0</title>
-            <pubDate>Tue, 20 Oct 2026 15:03:02 -0300</pubDate>
-            <sparkle:version>21</sparkle:version>
-            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## What's new
-
-- **Name it your way.** The tag on a row opens an editor: pick the name and,
-  for a service with several ports, which port it points at.
-- **Cookies that work at `*.localhost`.** An app that sets cookies for
-  `Domain=localhost` (or its production domain) breaks sign-in at
-  `billing.localhost`. Nametag now fixes them on the way through and tells
-  you which setting to change in the app.
-- **Proxy settings.** Turn the proxy off, or choose the ports it uses when
-  80 or 443 is taken, from the gear menu.
-- **Updates.** Check for Updates… in the gear menu. This is the first
-  version that can update itself.
-- A proper app icon.
-]]></description>
-            <enclosure url="https://github.com/gocodedotca/nametag-updates/releases/download/v0.2.0/Nametag-0.2.0.zip" length="13757074" type="application/octet-stream" sparkle:edSignature="Rb+U+9sdz4I402e8SB/OLEXbyFZSze0I9dNW8X2Ra1f4Ss32JqziI+ezX1146haLN3YvxNGtoss9UxkaX28bDg=="/>
         </item>
     </channel>
 </rss>
