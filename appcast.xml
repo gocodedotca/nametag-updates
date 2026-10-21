@@ -3,6 +3,30 @@
     <channel>
         <title>Nametag</title>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Wed, 21 Oct 2026 09:43:09 -0300</pubDate>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## What's new
+
+- **Share a server with someone outside your network.** Right-click a
+  named server and choose Share, or press Share… in its name editor.
+  Nametag gives you a private link through ngrok, on your own ngrok
+  account: install it (`brew install ngrok`) and sign in once.
+- **Only people with the link get in.** It lasts an hour, four hours or
+  until you stop it, and the panel shows who visited. A globe in the menu
+  bar means something is shared.
+- **Warnings before sharing a debugger.** Nametag checks whether visitors
+  would see Flask's debugger, Django's DEBUG pages or the Django Debug
+  Toolbar, and says how to turn them off.
+- **About Nametag** in the gear menu.
+
+Sharing is part of a license, and of the 14-day trial.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/nametag-updates/releases/download/v0.4.0/Nametag-0.4.0.zip" length="14161670" type="application/octet-stream" sparkle:edSignature="6g4cZJly40pXrfap3H842E14JTcycdYO0OQXTAY0i18p23Cj5zekrqkiBtI/AW1FCl63OPqy9HVrGB9vV6aMCA=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Wed, 21 Oct 2026 08:38:25 -0300</pubDate>
             <sparkle:version>35</sparkle:version>
