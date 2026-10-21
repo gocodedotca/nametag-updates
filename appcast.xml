@@ -3,6 +3,28 @@
     <channel>
         <title>Nametag</title>
         <item>
+            <title>0.3.0</title>
+            <pubDate>Wed, 21 Oct 2026 08:38:25 -0300</pubDate>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## What's new
+
+- **Licenses.** Nametag now has a free version and a paid one. Every
+  feature is unlocked for 14 days from the first launch of this version.
+  After that, the free version keeps finding and diagnosing everything and
+  serves 3 web names over HTTP (databases and caches don't count). A
+  license adds every name, HTTPS, notifications and the cookie fix, on up
+  to 3 Macs, and covers every version released within a year of purchase.
+  Buy one, or enter your key, from the license item in the gear menu.
+- **Names past the free limit** open on their ports, with a lock on their
+  rows; visiting one shows a page with a link to the port.
+- **Cookie diagnosis for everyone.** The free version still tells you
+  which cookies a browser refuses and which setting to change in the app.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/nametag-updates/releases/download/v0.3.0/Nametag-0.3.0.zip" length="13943494" type="application/octet-stream" sparkle:edSignature="RzRZeQ+w1TlKmB639R29gF7Ji3sD+aWx2IzsHHUA+tbJDeJdc4SiJdy3LF0ScR9NO97zRtTSxZx2u0hyRezHAw=="/>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Tue, 20 Oct 2026 15:03:02 -0300</pubDate>
             <sparkle:version>21</sparkle:version>
